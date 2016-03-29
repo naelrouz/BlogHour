@@ -6,12 +6,12 @@ class ClassName {
 //    $user = "root";
 //    $password = "Nael2714";
 //    $database = "bh";
-
+    public $mysql;
     function __construct() {
-        $this->mysqli = new mysqli("localhost", "root", "Nael2714", "bh");
+        $this->mysqli = new mysqli("localhost", "bh", "bh", "bh");
     }
-    public function guery($sql) {
-        
+    public function query($sql) {
+        $this->mysql
     }
 }
 
